@@ -1,0 +1,23 @@
+# core
+transformers==4.42.3
+accelerate
+torch
+
+# embeddings & index
+sentence-transformers
+faiss-cpu
+
+# eval
+ragas
+rouge-score
+
+# plumbing
+langchain
+pypdf
+numpy
+pandas
+
+# fetching
+requests
+beautifulsoup4
+lxml

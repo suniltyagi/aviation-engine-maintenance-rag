@@ -1,0 +1,25 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data & runs (artefacts)
+data/pdfs/
+data/*.index
+data/*.faiss
+data/*.bin
+runs/
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
