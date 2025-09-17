@@ -13,13 +13,17 @@ Thumbs.db
 .idea/
 
 # Data & runs (artefacts)
-data/pdfs/
 data/*.index
 data/*.faiss
 data/*.bin
 runs/
 logs/
 *.log
+data/corpus.jsonl
+data/meta.pkl
+results_metrics.json
 
 # Jupyter
 .ipynb_checkpoints/
+
+
