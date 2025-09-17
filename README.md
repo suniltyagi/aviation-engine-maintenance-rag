@@ -16,11 +16,11 @@ Built on FAA Aviation Maintenance Technician Handbooks, it enables accurate, con
 
 ```mermaid
 flowchart LR
-    A[FAA PDFs in data/pdfs/] --> B[Chunking<br>build_corpus.py]
-    B --> C[Embeddings + FAISS Index<br>embed_index.py]
-    D[User Query (--q)] --> E[Retrieval of Relevant Chunks]
+    A["FAA PDFs in data/pdfs/"] --> B["Chunking\nbuild_corpus.py"]
+    B --> C["Embeddings + FAISS Index\nembed_index.py"]
+    D["User Query (q)"] --> E["Retrieval of Relevant Chunks"]
     C --> E
-    E --> F[Answer Generation<br>rag_pipeline.py]
+    E --> F["Answer Generation\nrag_pipeline.py"]
 ```
 
 
